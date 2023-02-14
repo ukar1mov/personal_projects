@@ -1,0 +1,2424 @@
+@import url(./style.css);
+
+
+/* responsive 360 start */
+@media(max-width:360px) and (min-width: 321px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* header start */
+    .header_main_box {
+        width: 360px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        width: 360px;
+        height: 30px;
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .navbar img {
+        width: 100px;
+        height: 50px;
+    }
+
+    .links {
+        margin-top: 10px;
+    }
+
+    .links a {
+        font-size: 10px;
+    }
+
+    .cover_momentum_recipe {
+        display: flex;
+        justify-content: center;
+    }
+
+    .momentum_box {
+        width: 250px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .momentum_title {
+        font-size: 30px;
+    }
+
+    .launch_product {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .get_the_app {
+        width: 100px;
+        height: 50px;
+        font-size: 10px;
+    }
+
+    .box_for_blur {
+        width: 180px;
+        height: 200px;
+        display: block;
+        background-color: black;
+        position: absolute;
+        filter: blur(74px);
+        opacity: 0.7;
+    }
+
+    .recipe_img_box img {
+        width: 180px;
+        height: 200px;
+        margin: 0;
+    }
+
+    .arrow_box {
+        margin: 0;
+        width: 5px;
+        height: 25px;
+        margin-left: 85px;
+        margin-top: 170px;
+    }
+
+    /* header end */
+    /* main start */
+    .main_start {
+        width: 360px;
+
+    }
+
+    .main_text {
+        font-size: 8px;
+    }
+
+    .main_title {
+        width: 340px;
+        font-size: 20px;
+    }
+
+    .main_start_img {
+        width: 360px;
+        height: 200px;
+        background-size: cover;
+    }
+
+    /* main end */
+    /* section start */
+    .section_start {
+        width: 360px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .cover_box {
+        display: flex;
+        gap: 15px;
+    }
+
+    .s {
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .section_s_text {
+        font-size: 8px;
+    }
+
+    .section_s_title {
+        font-size: 20px;
+    }
+
+    .secrion_s_lorem {
+        width: 150px;
+        height: 120px;
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .cover_box img {
+        width: 150px;
+        height: 250px;
+    }
+
+    .we_offer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .burger_box {
+        width: 340px;
+
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .for_display {
+        display: flex;
+        gap: 80px;
+    }
+
+    .num_h1 {
+        font-size: 40px;
+    }
+
+    .num_text {
+        font-size: 10px;
+    }
+
+    .twenty_four {
+        margin-left: 20px;
+    }
+
+    .two_more_options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .porta {
+        width: 300px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .responsive_burger img {
+        width: 250px;
+    }
+
+    .responsive_burger {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .responsive_burger_two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .responsive_burger_two img {
+        width: 250px;
+    }
+
+    .responsive_porta {
+        width: 250px;
+        height: 10px;
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .responsive_title {
+        width: 250px;
+        height: 40px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .nulla {
+        width: 250px;
+        height: 100px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .headnulla {
+        width: 360px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .quotes {
+        width: 60px;
+        height: 50px;
+    }
+
+    .headnulla_text {
+        width: 320px;
+        height: auto;
+        font-size: 15px;
+    }
+
+    .home {
+        font-size: 15px;
+    }
+
+    .clients {
+        width: 340px;
+        margin-top: 100px;
+    }
+
+    /* section end */
+    /* footer start */
+    .footer_start {
+        width: 360px;
+    }
+
+    .phones {
+        width: 360px;
+        height: 150px;
+        margin-top: 50px;
+    }
+
+    .waves {
+        width: 360px;
+        height: 300px;
+    }
+
+    .waves img {
+        width: 360px;
+        height: 300px;
+    }
+
+    .get_started {
+        font-size: 20px;
+    }
+
+    .download {
+        width: 150px;
+        height: 50px;
+    }
+
+    .download:hover {
+        transform: scale(1.1);
+        background-color: #FC0A7E;
+    }
+
+    .one_oflest_box {
+        width: 360px;
+        height: 350px;
+    }
+
+    .one_last_title {
+        font-size: 20px;
+    }
+
+    .one_last_text {
+        font-size: 14px;
+    }
+
+    input {
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+        padding: 0;
+    }
+
+    ::placeholder {
+        color: black;
+    }
+
+    .subscribe {
+        width: 80px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .last_box {
+        width: 360px;
+    }
+
+    .social_media {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social_media a {
+        font-size: 10px;
+    }
+
+    /* footer end */
+}
+
+/* responsive 360 end */
+/* responsive 480 start */
+@media(max-width: 480px) and (min-width:361px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* header start */
+    .header_main_box {
+        width: 480px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        width: 480px;
+        height: 40px;
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .navbar img {
+        width: 150px;
+        height: 80px;
+    }
+
+    .links {
+        margin-top: 15px;
+    }
+
+    .links a {
+        font-size: 14px;
+    }
+
+    .cover_momentum_recipe {
+        display: flex;
+        justify-content: center;
+    }
+
+    .momentum_box {
+        width: 300px;
+        height: auto;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .momentum_title {
+        font-size: 35px;
+    }
+
+    .launch_product {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .get_the_app {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+
+    .box_for_blur {
+        width: 200px;
+        height: 220px;
+        display: block;
+        background-color: black;
+        position: absolute;
+        filter: blur(74px);
+        opacity: 0.7;
+    }
+
+    .recipe_img_box img {
+        width: 200px;
+        height: 220px;
+        margin: 0;
+    }
+
+    .arrow_box {
+        margin: 0;
+        width: 7px;
+        height: 30px;
+        margin-left: 95px;
+        margin-top: 220px;
+    }
+
+    /* header end */
+    /* main start */
+    .main_start {
+        width: 480px;
+    }
+
+    .main_text {
+        font-size: 10px;
+    }
+
+    .main_title {
+        width: 380px;
+        font-size: 25px;
+    }
+
+    .main_start_img {
+        width: 480px;
+        height: 250px;
+        background-size: cover;
+    }
+
+    /* main end */
+    /* section start */
+    .section_start {
+        width: 480px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .cover_box {
+        display: flex;
+        gap: 20px;
+    }
+
+    .s {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .section_s_text {
+        font-size: 10px;
+    }
+
+    .section_s_title {
+        width: 160px;
+        font-size: 25px;
+    }
+
+    .secrion_s_lorem {
+        width: 200px;
+        height: 150px;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .cover_box img {
+        width: 200px;
+        height: 350px;
+    }
+
+    .we_offer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .burger_box {
+        width: 380px;
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .for_display {
+        display: flex;
+        gap: 40px;
+    }
+
+    .num_h1 {
+        margin-left: 20px;
+    }
+
+    .twenty_four {
+        margin-left: 44px;
+    }
+
+    .two_more_options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .porta {
+        width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .responsive_burger img {
+        width: 350px;
+    }
+
+    .responsive_burger {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .responsive_burger_two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .responsive_burger_two img {
+        width: 350px;
+    }
+
+    .responsive_porta {
+        width: 300px;
+        height: 15px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .responsive_title {
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .nulla {
+        width: 300px;
+        height: 130px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .headnulla {
+        width: 480px;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .quotes {
+        width: 80px;
+        height: 60px;
+    }
+
+    .headnulla_text {
+        width: 340px;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .home {
+        font-size: 20px;
+    }
+
+    .clients {
+        width: 380px;
+        margin-top: 120px;
+    }
+
+    /* section end */
+    /* footer start */
+    .footer_start {
+        width: 480px;
+    }
+
+    .phones {
+        width: 480px;
+        height: 250px;
+        margin-top: 80px;
+    }
+
+    .waves {
+        width: 480px;
+        height: 350px;
+    }
+
+    .waves img {
+        width: 480px;
+        height: 350px;
+    }
+
+    .get_started {
+        font-size: 25px;
+    }
+
+    .download {
+        width: 180px;
+        height: 60px;
+    }
+
+    .one_oflest_box {
+        width: 480px;
+        height: 400px;
+    }
+
+    .one_last_title {
+        font-size: 25px;
+    }
+
+    .one_last_text {
+        font-size: 20px;
+    }
+
+    input {
+        width: 220px;
+        height: 50px;
+        font-size: 14px;
+        padding-right: 100px;
+    }
+
+    .subscribe {
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .last_box {
+        width: 480px;
+    }
+
+    .social_media {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .social_media a {
+        font-size: 14px;
+    }
+
+    /* footer end */
+}
+
+/* responsive 480 end */
+/* responsive 320 start */
+@media(max-width: 320px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* header start */
+    .header_main_box {
+        width: 320px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        width: 320px;
+        height: 30px;
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .navbar img {
+        width: 100px;
+        height: 60px;
+    }
+
+    .links {
+        margin-top: 10px;
+    }
+
+    .links a {
+        font-size: 10px;
+    }
+
+    .cover_momentum_recipe {
+        display: flex;
+        justify-content: center;
+    }
+
+    .momentum_box {
+        width: 280px;
+        height: auto;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .momentum_title {
+        font-size: 30px;
+    }
+
+    .launch_product {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .get_the_app {
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .box_for_blur {
+        width: 200px;
+        height: 220px;
+        display: block;
+        background-color: black;
+        position: absolute;
+        filter: blur(74px);
+        opacity: 0.7;
+    }
+
+    .recipe_img_box img {
+        width: 200px;
+        height: 220px;
+        margin: 0;
+    }
+
+    .arrow_box {
+        margin: 0;
+        width: 7px;
+        height: 30px;
+        margin-left: 95px;
+        margin-top: 200px;
+    }
+
+    /* header end */
+    /* main start */
+    .main_start {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main_text {
+        font-size: 10px;
+    }
+
+    .main_title {
+        width: 320px;
+        font-size: 20px;
+    }
+
+    .main_start_img {
+        width: 320px;
+        height: 200px;
+        background-size: cover;
+    }
+
+    /* main end */
+    /* section start */
+    .section_start {
+        width: 320px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .cover_box {
+        display: flex;
+        gap: 18px;
+    }
+
+    .s {
+        width: 130px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .section_s_text {
+        font-size: 8px;
+    }
+
+    .section_s_title {
+        width: 130px;
+        margin: 0;
+        font-size: 17px;
+    }
+
+    .secrion_s_lorem {
+        width: 140px;
+        height: 130px;
+        font-size: 8px;
+        margin: 0;
+    }
+
+    .cover_box img {
+        width: 150px;
+        height: 300px;
+    }
+
+    .we_offer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .burger_box {
+        width: 320px;
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .for_display {
+        display: flex;
+        gap: 20px;
+    }
+
+    .num_h1 {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    .num_text {
+        font-size: 15px;
+    }
+
+    .twenty_four {
+        margin-left: 55px;
+    }
+
+    .two_more_options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .porta {
+        width: 320px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .responsive_burger img {
+        width: 310px;
+    }
+
+    .responsive_burger {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .responsive_burger_two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .responsive_burger_two img {
+        width: 310px;
+    }
+
+    .responsive_porta {
+        width: 300px;
+        height: 15px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .responsive_title {
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .nulla {
+        width: 300px;
+        height: 130px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .headnulla {
+        width: 320px;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .quotes {
+        width: 80px;
+        height: 60px;
+    }
+
+    .headnulla_text {
+        width: 310px;
+        height: auto;
+        font-size: 15px;
+    }
+
+    .home {
+        font-size: 20px;
+    }
+
+    .clients {
+        width: 310px;
+        margin-top: 120px;
+    }
+
+    /* section end */
+    /* footer start */
+    .footer_start {
+        width: 320px;
+    }
+
+    .phones {
+        width: 320px;
+        height: 180px;
+        margin-top: 60px;
+    }
+
+    .waves {
+        width: 320px;
+        height: 330px;
+    }
+
+    .waves img {
+        width: 320px;
+        height: 330px;
+    }
+
+    .get_started {
+        font-size: 25px;
+    }
+
+    .download {
+        width: 140px;
+        height: 40px;
+    }
+
+    .one_oflest_box {
+        width: 320px;
+        height: 350px;
+    }
+
+    .one_last_title {
+        font-size: 20px;
+    }
+
+    .one_last_text {
+        font-size: 16px;
+    }
+
+    input {
+        width: 180px;
+        height: 40px;
+        font-size: 10px;
+        padding-right: 80px;
+    }
+
+    .subscribe {
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .last_box {
+        width: 320px;
+    }
+
+    .social_media {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .social_media a {
+        font-size: 10px;
+    }
+
+    /* footer end */
+}
+
+/* responsive 320 end */
+
+/* responsive 768 start */
+@media(max-width: 768px) and (min-width:481px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* header start */
+    .header_main_box {
+        width: 768px;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        width: 768px;
+        height: 40px;
+        display: flex;
+        gap: 90px;
+    }
+
+    .navbar img {
+        width: 200px;
+        height: 90px;
+    }
+
+    .links {
+        margin-top: 15px;
+    }
+
+    .links a {
+        font-size: 18px;
+    }
+
+    .cover_momentum_recipe {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .momentum_box {
+        width: 450px;
+        height: auto;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        margin-right: 150px;
+    }
+
+    .momentum_title {
+        font-size: 40px;
+    }
+
+    .launch_product {
+        font-size: 22px;
+    }
+
+    .get_the_app {
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+
+    .box_for_blur {
+        display: none;
+    }
+
+    .recipe_img_box img {
+        width: 300px;
+        height: 320px;
+        margin-left: 450px;
+    }
+
+    .arrow_box {
+        margin: 0;
+        width: 7px;
+        height: 35px;
+        margin-left: 375px;
+        margin-top: 180px;
+    }
+
+    /* header end */
+    /* main start */
+    .main_start {
+        width: 768px;
+    }
+
+    .main_text {
+        font-size: 10px;
+    }
+
+    .main_title {
+        width: 380px;
+        font-size: 25px;
+    }
+
+    .main_start_img {
+        width: 480px;
+        height: 250px;
+        background-size: cover;
+    }
+
+    /* main end */
+    /* section start */
+    .section_start {
+        width: 768px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .cover_box {
+        display: flex;
+        gap: 20px;
+    }
+
+    .s {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .section_s_text {
+        font-size: 10px;
+    }
+
+    .section_s_title {
+        width: 160px;
+        font-size: 25px;
+    }
+
+    .secrion_s_lorem {
+        width: 200px;
+        height: 150px;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .cover_box img {
+        width: 200px;
+        height: 350px;
+    }
+
+    .we_offer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .burger_box {
+        width: 380px;
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .for_display {
+        display: flex;
+        gap: 40px;
+    }
+
+    .num_h1 {
+        margin-left: 20px;
+    }
+
+    .twenty_four {
+        margin-left: 44px;
+    }
+
+    .two_more_options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .porta {
+        width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .responsive_burger img {
+        width: 350px;
+    }
+
+    .responsive_burger {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .responsive_burger_two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .responsive_burger_two img {
+        width: 350px;
+    }
+
+    .responsive_porta {
+        width: 300px;
+        height: 15px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .responsive_title {
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .nulla {
+        width: 700px;
+        height: 130px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .headnulla {
+        width: 768px;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .quotes {
+        width: 80px;
+        height: 60px;
+    }
+
+    .headnulla_text {
+        width: 730px;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .home {
+        font-size: 20px;
+    }
+
+    .clients {
+        width: 740px;
+        margin-top: 120px;
+    }
+
+    /* section end */
+    /* footer start */
+    .footer_start {
+        width: 768px;
+    }
+
+    .phones {
+        width: 768px;
+        height: 250px;
+        margin-top: 80px;
+    }
+
+    .waves {
+        width: 768px;
+        height: 350px;
+    }
+
+    .waves img {
+        width: 768px;
+        height: 350px;
+    }
+
+    .get_started {
+        font-size: 25px;
+    }
+
+    .download {
+        width: 180px;
+        height: 60px;
+    }
+
+    .one_oflest_box {
+        width: 768px;
+        height: 400px;
+    }
+
+    .one_last_title {
+        font-size: 25px;
+    }
+
+    .one_last_text {
+        font-size: 20px;
+    }
+
+    input {
+        width: 220px;
+        height: 50px;
+        font-size: 14px;
+        padding-right: 100px;
+    }
+
+    .subscribe {
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .last_box {
+        width: 768px;
+    }
+
+    .social_media {
+        display: flex;
+        gap: 8px;
+    }
+
+    .social_media a {
+        font-size: 14px;
+    }
+
+    /* footer end */
+}
+
+/* responsive 768 end */
+
+
+/* responsive 1024 start */
+@media(max-width:1024px) and (min-width:769px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* header start */
+    .header_main_box {
+        width: 1024px;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        width: 1024px;
+        height: 40px;
+        display: flex;
+        gap: 90px;
+    }
+
+    .navbar img {
+        width: 150px;
+        height: 60px;
+    }
+
+    .links {
+        margin-top: 15px;
+    }
+
+    .links a {
+        font-size: 18px;
+    }
+
+    .cover_momentum_recipe {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .momentum_box {
+        width: 450px;
+        height: auto;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        margin-right: 150px;
+    }
+
+    .momentum_title {
+        font-size: 40px;
+    }
+
+    .launch_product {
+        font-size: 22px;
+    }
+
+    .get_the_app {
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+
+    .box_for_blur {
+        display: none;
+    }
+
+    .recipe_img_box img {
+        width: 300px;
+        height: 320px;
+        margin-left: 450px;
+    }
+
+    .arrow_box {
+        margin: 0;
+        width: 7px;
+        height: 35px;
+        margin-left: 375px;
+        margin-top: 180px;
+    }
+
+    /* header end */
+    /* main start */
+    .main_start {
+        width: 1024px;
+    }
+
+    .main_text {
+        font-size: 10px;
+    }
+
+    .main_title {
+        width: 380px;
+        font-size: 25px;
+    }
+
+    .main_start_img {
+        width: 480px;
+        height: 250px;
+        background-size: cover;
+    }
+
+    /* main end */
+    /* section start */
+    .section_start {
+        width: 1024px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .cover_box {
+        display: flex;
+        gap: 60px;
+    }
+
+    .s {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .section_s_text {
+        font-size: 15px;
+    }
+
+    .section_s_title {
+        width: 260px;
+        font-size: 30px;
+    }
+
+    .secrion_s_lorem {
+        width: 300px;
+        height: 150px;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .cover_box img {
+        width: 330px;
+        height: 500px;
+    }
+
+    .we_offer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .burger_box {
+        width: 380px;
+    }
+
+    .numbers {
+        display: flex;
+        gap: 40px;
+    }
+
+    .for_display {
+        display: flex;
+        gap: 40px;
+    }
+
+    .num_h1 {
+        margin-left: 20px;
+    }
+
+    .twenty_four {
+        margin-left: 44px;
+    }
+
+    .two_more_options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .porta {
+        width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .responsive_burger img {
+        width: 450px;
+    }
+
+    .responsive_burger {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .responsive_burger_two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .responsive_burger_two img {
+        width: 450px;
+    }
+
+    .responsive_porta {
+        width: 400px;
+        height: 15px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .responsive_title {
+        width: 450px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nulla {
+        width: 700px;
+        height: 130px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .headnulla {
+        width: 1024px;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .quotes {
+        width: 80px;
+        height: 60px;
+    }
+
+    .headnulla_text {
+        width: 730px;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .home {
+        font-size: 20px;
+    }
+
+    .clients {
+        width: 740px;
+        margin-top: 120px;
+    }
+
+    /* section end */
+    /* footer start */
+    .footer_start {
+        width: 1024px;
+    }
+
+    .phones {
+        width: 1024px;
+        height: 350px;
+        margin-top: 80px;
+    }
+
+    .waves {
+        width: 1024px;
+        height: 350px;
+    }
+
+    .waves img {
+        width: 1024px;
+        height: 350px;
+    }
+
+    .get_started {
+        font-size: 25px;
+    }
+
+    .download {
+        width: 180px;
+        height: 60px;
+    }
+
+    .one_oflest_box {
+        width: 1024px;
+        height: 400px;
+    }
+
+    .one_last_title {
+        font-size: 25px;
+    }
+
+    .one_last_text {
+        font-size: 20px;
+    }
+
+    input {
+        width: 220px;
+        height: 50px;
+        font-size: 14px;
+        padding-right: 100px;
+    }
+
+    .subscribe {
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .last_box {
+        width: 1024px;
+    }
+
+    .social_media {
+        display: flex;
+        gap: 8px;
+    }
+
+    .social_media a {
+        font-size: 14px;
+    }
+
+    /* footer end */
+}
+
+/* responsive 1024 end */
+
+
+/* responsive 1920 start */
+@media(max-width:1920px) and (min-width:1900px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* header start */
+    .header_main_box {
+        width: 1920px;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        width: 1920px;
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navbar img {
+        width: 220px;
+        height: 70px;
+    }
+
+    .links {
+        margin-top: 15px;
+    }
+
+    .links a {
+        font-size: 28px;
+    }
+
+    .cover_momentum_recipe {
+        width: 700px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .momentum_box {
+        width: 650px;
+        height: auto;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        margin-right: 450px;
+    }
+
+    .momentum_title {
+        font-size: 80px;
+    }
+
+    .launch_product {
+        font-size: 32px;
+    }
+
+    .get_the_app {
+        width: 250px;
+        height: 70px;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+
+    .box_for_blur {
+        display: none;
+    }
+
+    .recipe_img_box img {
+        width: 500px;
+        height: 620px;
+        margin-left: 650px;
+    }
+
+    .arrow_box {
+        margin: 0;
+        width: 7px;
+        height: 35px;
+        margin-left: 575px;
+        margin-top: 260px;
+    }
+
+    /* header end */
+    /* main start */
+    .main_start {
+        width: 1920px;
+        height: 1200px;
+    }
+
+    .main_text {
+        font-size: 20px;
+    }
+
+    .main_title {
+        width: 880px;
+        font-size: 55px;
+    }
+
+    .main_start_img {
+        width: 1720px;
+        height: 1050px;
+        background-size: cover;
+    }
+
+    /* main end */
+    /* section start */
+    .section_start {
+        width: 1920px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 200px;
+    }
+
+    .cover_box {
+        display: flex;
+        gap: 100px;
+    }
+
+    .s {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .section_s_text {
+        font-size: 35px;
+    }
+
+    .section_s_title {
+        width: 660px;
+        height: auto;
+        font-size: 60px;
+    }
+
+    .secrion_s_lorem {
+        width: 600px;
+        height: 150px;
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .cover_box img {
+        width: 500px;
+        height: 800px;
+    }
+
+    .we_offer {
+        display: flex;
+    }
+
+    .burger_box {
+        width: 550px;
+    }
+    .burger_box img{
+        width: 140px;
+        height: 70px;
+    }
+    .burger_title{
+        font-size: 35px;
+    }
+    .burger_lorem{
+        font-size: 24px;
+    }
+
+    .numbers {
+        display: flex;
+        gap: 80px;
+    }
+    .num_h1{
+        font-size: 60px;
+    }
+    .num_text{
+        font-size: 24px;
+    }
+
+    .for_display {
+        display: flex;
+        gap: 80px;
+    }
+
+    .two_more_options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .porta {
+        width: 850px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .responsive_burger img {
+        width: 850px;
+    }
+
+    .responsive_burger {
+        display: flex;
+        gap: 80px;
+    }
+
+    .responsive_burger_two {
+        display: flex;
+    }
+
+    .responsive_burger_two img {
+        width: 850px;
+    }
+
+    .responsive_porta {
+        width: 500px;
+        height: 15px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .responsive_title {
+        width: 750px;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .nulla {
+        width: 700px;
+        height: 230px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .headnulla {
+        width: 1920px;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .quotes {
+        width: 200px;
+        height: 160px;
+    }
+
+    .headnulla_text {
+        width: 1230px;
+        height: auto;
+        font-size: 30px;
+    }
+
+    .home {
+        font-size: 20px;
+    }
+
+    .clients {
+        width: 1440px;
+        margin-top: 120px;
+    }
+
+    /* section end */
+    /* footer start */
+    .footer_start {
+        width: 1920px;
+    }
+
+    .phones {
+        width: 1920px;
+        height: 550px;
+        margin-top: 80px;
+    }
+
+    .waves {
+        width: 1920px;
+        height: 550px;
+    }
+
+    .waves img {
+        width: 1920px;
+        height: 550px;
+    }
+
+    .get_started {
+        font-size: 65px;
+    }
+
+    .download {
+        width: 280px;
+        height: 70px;
+    }
+
+    .one_oflest_box {
+        width: 1920px;
+        height: 500px;
+    }
+
+    .one_last_title {
+        font-size: 65px;
+    }
+
+    .one_last_text {
+        font-size: 30px;
+    }
+
+    input {
+        width: 420px;
+        height: 70px;
+        font-size: 24px;
+        padding-right: 150px;
+    }
+
+    .subscribe {
+        width: 220px;
+        height: 70px;
+        font-size: 24px;
+    }
+
+    .last_box {
+        width: 1920px;
+    }
+
+    .social_media {
+        display: flex;
+        gap: 8px;
+    }
+
+    .social_media a {
+        font-size: 24px;
+    }
+
+    /* footer end */
+}
+
+
+/* responsive 1920 end */
+
+/* responsive 2560 start */
+@media(max-width:2560px) and (min-width:2550px){
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* header start */
+    .header_main_box {
+        width: 2560px;
+        height: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .navbar {
+        width: 2560px;
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navbar img {
+        width: 220px;
+        height: 70px;
+    }
+
+    .links {
+        margin-top: 15px;
+    }
+
+    .links a {
+        font-size: 38px;
+    }
+
+    .cover_momentum_recipe {
+        width: 900px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .momentum_box {
+        width: 850px;
+        height: auto;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        margin-right: 650px;
+        gap: 30px;
+    }
+
+    .momentum_title {
+        font-size: 140px;
+    }
+
+    .launch_product {
+        font-size: 52px;
+    }
+
+    .get_the_app {
+        width: 350px;
+        height: 90px;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+
+    .box_for_blur {
+        display: none;
+    }
+
+    .recipe_img_box img {
+        width: 900px;
+        height: 920px;
+        margin-left: 950px;
+    }
+
+    .arrow_box {
+        margin: 0;
+        width: 15px;
+        height: 75px;
+        margin-left: 945px;
+        margin-top: 360px;
+    }
+
+    /* header end */
+    /* main start */
+    .main_start {
+        width: 2560px;
+        height: 1700px;
+    }
+
+    .main_text {
+        font-size: 40px;
+    }
+
+    .main_title {
+        width: 1550px;
+        font-size: 65px;
+    }
+
+    .main_start_img {
+        width: 2560px;
+        height: 1450px;
+        background-size: cover;
+    }
+
+    /* main end */
+    /* section start */
+    .section_start {
+        width: 2560px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 200px;
+    }
+
+    .cover_box {
+        display: flex;
+        gap: 100px;
+    }
+
+    .s {
+        width: 1400px;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .section_s_text {
+        width: 900px;
+        font-size: 55px;
+    }
+
+    .section_s_title {
+        width: 1240px;
+        height: 200px;
+        font-size: 100px;
+        display: flex;
+        align-items: center;
+    }
+    .boom{
+        width: 900px;
+    }
+    .boom_first{
+        width: 900px;
+    }
+    .secrion_s_lorem {
+        width: 800px;
+        height: auto;
+        font-size: 38px;
+        margin: 0;
+    }
+
+    .cover_box img {
+        width: 700px;
+        height: 900px;
+    }
+
+    .we_offer {
+        display: flex;
+    }
+
+    .burger_box {
+        width: 550px;
+    }
+    .burger_box img{
+        width: 140px;
+        height: 70px;
+    }
+    .burger_title{
+        font-size: 35px;
+    }
+    .burger_lorem{
+        font-size: 24px;
+    }
+
+    .numbers {
+        display: flex;
+        gap: 80px;
+    }
+    .num_h1{
+        font-size: 60px;
+    }
+    .num_text{
+        font-size: 24px;
+    }
+
+    .for_display {
+        display: flex;
+        gap: 80px;
+    }
+
+    .two_more_options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .porta {
+        width: 850px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .responsive_burger img {
+        width: 850px;
+    }
+
+    .responsive_burger {
+        display: flex;
+        gap: 80px;
+    }
+
+    .responsive_burger_two {
+        display: flex;
+    }
+
+    .responsive_burger_two img {
+        width: 850px;
+    }
+
+    .responsive_porta {
+        width: 500px;
+        height: 15px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .responsive_title {
+        width: 750px;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .nulla {
+        width: 700px;
+        height: 230px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .headnulla {
+        width: 2560px;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .quotes {
+        width: 200px;
+        height: 160px;
+    }
+
+    .headnulla_text {
+        width: 1230px;
+        height: auto;
+        font-size: 30px;
+    }
+
+    .home {
+        font-size: 20px;
+    }
+
+    .clients {
+        width: 1440px;
+        margin-top: 120px;
+    }
+
+    /* section end */
+    /* footer start */
+    .footer_start {
+        width: 2560px;
+    }
+
+    .phones {
+        width: 2560px;
+        height: 850px;
+        margin-top: 80px;
+    }
+
+    .waves {
+        width: 2560px;
+        height: 850px;
+    }
+
+    .waves img {
+        width: 2560px;
+        height: 850px;
+    }
+
+    .get_started {
+        font-size: 65px;
+    }
+
+    .download {
+        width: 280px;
+        height: 70px;
+    }
+
+    .one_oflest_box {
+        width: 2560px;
+        height: 500px;
+    }
+
+    .one_last_title {
+        font-size: 65px;
+    }
+
+    .one_last_text {
+        font-size: 30px;
+    }
+
+    input {
+        width: 420px;
+        height: 70px;
+        font-size: 24px;
+        padding-right: 150px;
+    }
+
+    .subscribe {
+        width: 220px;
+        height: 70px;
+        font-size: 24px;
+    }
+
+    .last_box {
+        width: 2560px;
+    }
+
+    .social_media {
+        display: flex;
+        gap: 8px;
+    }
+
+    .social_media a {
+        font-size: 24px;
+    }
+
+    /* footer end */
+
+
+}
+
+/* responsive 2560 end */

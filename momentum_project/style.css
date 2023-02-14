@@ -1,0 +1,547 @@
+@import url(./responsive.css);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* header start */
+.header_main_box {
+    width: 1440px;
+    height: 800px;
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.navbar {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 665px;
+}
+
+.navbar img {
+    margin-top: 30px;
+}
+
+.links {
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+
+.links a {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.links a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.cover_momentum_recipe {
+    display: flex;
+    align-items: center;
+
+}
+
+.momentum_box {
+    width: 677px;
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 145px;
+    position: absolute;
+    margin-bottom: 227px;
+    gap: 10px;
+}
+
+.momentum_title {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.launch_product {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.get_the_app {
+    width: 170px;
+    height: 66px;
+    background: #FC0A7E;
+    border-radius: 3px;
+    border: 1px rgba(216, 209, 209, 0.541) solid;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.get_the_app:hover {
+    transform: scale(1.1);
+    border: none;
+}
+.box_for_blur{
+    display: none;
+}
+.recipe_img_box img {
+    width: 652px;
+    height: 680px;
+    margin-left: 744px;
+}
+
+.arrow_box {
+    width: 9px;
+    height: 40px;
+    position: absolute;
+    margin-left: 710px;
+    margin-top: 270px;
+    background: url(./media/icons/arrow_down.png);
+    background-size: cover;
+}
+.arrow_box:hover{
+    transform: scale(1.5);
+}
+
+/* header end */
+
+/* main start */
+.main_start {
+    width: 1440px;
+    height: 9456x;
+    background: #1B1B1B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.main_text {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+    margin-top: 100px;
+}
+
+.main_title {
+    width: 607px;
+    height: 96px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main_start_img {
+    width: 1200px;
+    height: 656px;
+    background: url(./media/img/scott_mitchel.png);
+    margin-top: 15px;
+}
+
+/* main end */
+/* section start */
+.section_start {
+    width: 1440px;
+    height: 5100.73px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 160px;
+}
+
+.cover_box {
+    margin-top: 80px;
+    display: flex;
+    gap: 195px;
+    align-items: center;
+}
+
+.s {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.section_s_text {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+}
+
+.section_s_title {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.secrion_s_lorem {
+    width: 306px;
+    height: 90px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+    margin-top: 20px;
+}
+
+.we_offer {
+    display: flex;
+    gap: 60px;
+}
+
+.burger_box {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.burger_title {
+    margin-top: 20px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.burger_lorem {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #6B6B6B;
+}
+
+.numbers {
+    display: flex;
+    gap: 200px;
+}
+.for_display{
+    display: flex;
+    gap: 200px;
+}
+.num_h1 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 90px;
+    text-align: center;
+    color: #333333;
+}
+
+.num_text {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.nulla {
+    margin: 0;
+}
+
+.headnulla {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two_more_options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+}
+
+.headnulla_text {
+    width: 700px;
+    height: 200px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #6B6B6B;
+    margin-top: 65px;
+}
+
+.newtimes {
+    display: flex;
+    gap: 70px;
+}
+
+.home {
+    margin-top: 17px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #6B6B6B;
+}
+
+.cubiks {
+    margin-top: 88px;
+    display: flex;
+    gap: 16px;
+}
+
+.cub {
+    width: 7px;
+    height: 7px;
+    background-color: #000000;
+}
+
+.cub_two {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(34, 34, 34, 0.4);
+}
+
+.clients {
+    margin-top: 148px;
+}
+
+.nulla {
+    height: 210px;
+}
+
+/* section end */
+/* footer start */
+.footer_start {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    gap: 1;
+}
+
+.phones {
+    width: 1440px;
+    height: 518px;
+    margin-top: 118px;
+}
+
+.waves {
+    width: 1440px;
+    height: 473px;
+    background: linear-gradient(287.15deg, #56145e 0%, #76257e 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.waves img {
+    width: 1440px;
+    height: 473px;
+}
+
+.ready_box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.get_started {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.download {
+    width: 190px;
+    height: 66px;
+    background-color: rgba(252, 10, 127, 0.075);
+    border: rgba(223, 199, 199, 0.623) 1px solid;
+    border-radius: 3px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.download:hover {
+    transform: scale(1.1);
+    background-color: #FC0A7E;
+    border: none;
+}
+
+.one_oflest_box {
+    width: 1440px;
+    height: 463px;
+    background-color: #1B1B1B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.one_last_title {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.one_last_text {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #6B6B6B;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+
+}
+
+input {
+    width: 370px;
+    height: 70px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    padding-right: 150px;
+    outline: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.subscribe {
+    width: 154px;
+    height: 69px;
+    background-color: #FC0A7E;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-top: 1px;
+}
+
+.subscribe:hover {
+    transform: scale(1.1);
+}
+
+.last_box {
+    width: 1440px;
+    height: 242px;
+    background-color: #1B1B1B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.links_last{
+    display: flex;
+    gap: 30px;
+}
+.links_last a {
+    text-decoration: none;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #6B6B6B;
+}
+.links_last a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.social_media{
+    display: flex;
+    gap: 30px;
+}
+/* footer end */
